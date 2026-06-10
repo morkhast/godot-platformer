@@ -3,6 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://7wnpj43flon7" path="res://player.tscn" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://b5tvgm8thk6r1" path="res://tile.png" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://b3m4yshdrm4gl" path="res://enemy.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://0t41rik5eo0n" path="res://coin.tscn" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://brnguxaqykpny" path="res://hud.tscn" id="5_lquwl"]
+[ext_resource type="Script" uid="uid://4tgacaqxa1pw" path="res://hud.gd" id="6_7mycd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h2yge"]
 texture = ExtResource("2_0xm2m")
@@ -63,3 +66,9 @@ tile_set = SubResource("TileSet_1bvp3")
 
 [node name="Enemy" parent="." unique_id=631136724 instance=ExtResource("3_h2yge")]
 position = Vector2(9, 398)
+
+[node name="Coin" parent="." unique_id=499447183 instance=ExtResource("4_1bvp3")]
+position = Vector2(-554, 401)
+
+[node name="HUD" parent="." unique_id=66970159 instance=ExtResource("5_lquwl")]
+script = ExtResource("6_7mycd")

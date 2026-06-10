@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://brnguxaqykpny"]
+
+[node name="HUD" type="CanvasLayer" unique_id=66970159]
+
+[node name="Label" type="Label" parent="." unique_id=1683157222]
+offset_right = 40.0
+offset_bottom = 23.0

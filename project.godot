@@ -19,6 +19,10 @@ run/main_scene="uid://cvpxbo7ft5crl"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameState="*uid://d4f7pn5g4rhah"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
