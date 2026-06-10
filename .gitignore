@@ -1,0 +1,23 @@
+# Godot 4 .gitignore
+
+# Godot-specific ignores
+.godot/
+*.translation
+
+# Import files (generated, not needed in repo)
+*.import
+
+# Binaries
+*.apk
+*.aab
+*.ipa
+*.zip
+*.exe
+*.dll
+*.pck
+
+# Export presets — contains personal paths, exclude
+export_presets.cfg
+
+# macOS
+.DS_Store
